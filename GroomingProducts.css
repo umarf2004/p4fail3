@@ -1,0 +1,161 @@
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-size: 400%;
+    padding: 0em;
+    background-color:rgb(30, 70, 119);
+}
+
+.logo {
+    width: 2rem; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    float: left;
+    display:inline; /* Ensure the image behaves as a block element */
+    padding: 1rem;
+    }
+  
+  /* Example of additional styling */
+  .logo:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+    transition: opacity 0.3s ease; /* Smooth transition effect */
+  }
+  body{
+    background-color: aliceblue;
+  }
+  
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* the navigation bar */
+  nav {
+    background-color: rgb(30, 69, 119);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #grooming {
+    display: block;
+    color:aliceblue;
+    background-color:#555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+
+  body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  main{
+    margin-left: 2em;
+    width: 50em;
+    float: left;
+  }
+  
+  aside{
+    width: 15em;
+    float: right;
+  }
+
+  header {
+    text-align: center;
+    margin-top: 5px; 
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  
+  
+  .title {
+    font-size: 3rem; 
+    color: rgb(239, 234, 234); 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 5px; 
+  }
+  
+  /* Style for the description */
+  .description {
+    font-size: 1.5rem; 
+    text-align: center;
+    color: rgb(30, 69, 119); 
+    font-family:'Times New Roman', Times, serif; 
+    margin-bottom: 0.5rem; 
+  }
+
+  ol{
+    background-color: aliceblue;
+  }
+
+  ol li {
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    text-align: justify;
+    color:rgb(30, 69, 119);
+    background: lightblue;
+    padding: 1em;
+    margin-right: 2em;
+  }
+
+  producttype{
+    padding-bottom: 1rem;
+    font-size: 250%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
+
+.faheel{
+  display: block;
+  width: 10rem; 
+  height: auto; 
+  float: left;
+  padding: 0rem;
+  margin-top: 2rem;
+  margin-right: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.image-description{
+  font-size: 5rem;
+  text-align: right;
+  display: block;
+}
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(209, 232, 252);
+    color: rgb(89, 89, 89);
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
