@@ -1,124 +1,137 @@
-#home {
-    display: block;
-    color:aliceblue;
-    background-color:#555;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+/* DEVELOPER: Umar Farooq, IS117-006, Spring 2024 */
 
-  body{
-    background-color: aliceblue;
-  }
-  
- h1 {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
-    font-size: 400%;
-    padding: 0em;
-    background-color:rgb(30, 70, 119);
+/*CSS of HOME PAGE*/
+
+/*Sets background color to alice-blue */
+body{
+  background-color: aliceblue;
 }
 
+
+/*the 'home' tab in the navigation bar turns light blue*/
+#home {
+display: block;
+color:lightslategray;
+background-color:rgb(165, 205, 239);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+
+/*Style for the WebPage TITLE "HAIR WE GROW" */
+h1 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  font-size: 400%;
+  padding: 0em;
+  background-color:rgb(30, 70, 119);
+}
+
+.title {
+  font-size: 5rem; 
+  color: rgb(239, 234, 234); 
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  margin-right: 0%;
+  margin-left: 0%;
+  margin-bottom: 5px; 
+}
+
+/* Style for the description under title*/
+.description {
+  font-size: 1.5rem; 
+  text-align: center;
+  color: rgb(30, 69, 119); 
+  font-family:'Times New Roman', Times, serif; 
+  margin-bottom: 0.5rem; 
+}
+
+/*Style for the logo image next to title*/
 .logo {
-    width: 4rem; 
-    height: auto; 
-    float: left;
-    display:inline;     
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    }
-  
-  .logo:hover {
-    opacity: 0.7; 
-    transition: opacity 0.3s ease; /* Smooth transition effect */
+  width: 4rem; 
+  height: auto; 
+  float: left;
+  display:inline;     
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   }
+/*logo hover makes the logo opacity to 0.7*/
+.logo:hover {
+  opacity: 0.7; 
+  transition: opacity 0.3s ease; /* Smooth transition effect */
+}
 
 
-  p1{
-    border: 0.3rem;
-    border-color: coral;
-    color:rgb(30, 70, 119);
-    font-size: 1.9rem;
-    display: block;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
 
-
-  p2{
-    border: 0.3rem;
-    border-color: coral;
-    color:firebrick;
-    font-size: 1.3rem;
-    display: block;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
+/* Style for the navigation bar */
+nav {
+  background-color: rgb(30, 69, 119);
+}
 
 body, ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* the navigation bar */
-  nav {
-    background-color: rgb(30, 69, 119);
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  nav ul li {
-    float: left;
-  }
-  
-  nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  nav ul li a:hover {
-    background-color: #555;
-  }
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-  body, h1, p {
-    margin: 0;
-    padding: 0;
-  }
-  
+nav ul li {
+  float: left;
+}
 
-  header {
-    text-align: center;
-    margin-top: 5px; 
-    margin-right: 0%;
-    margin-left: 0%;
-  }
-  
-  
-  .title {
-    font-size: 5rem; 
-    color: rgb(239, 234, 234); 
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-    margin-right: 0%;
-    margin-left: 0%;
-    margin-bottom: 5px; 
-  }
-  
-  /* Style for the description */
-  .description {
-    font-size: 1.5rem; 
-    text-align: center;
-    color: rgb(30, 69, 119); 
-    font-family:'Times New Roman', Times, serif; 
-    margin-bottom: 0.5rem; 
-  }
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+
+
+/*Style for text on top of home page */
+p1{
+  border: 0.3rem;
+  border-color: coral;
+  color:rgb(30, 70, 119);
+  font-size: 1.9rem;
+  display: block;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/*Style for 'NOTE' on top of home page */
+p2{
+  border: 0.3rem;
+  border-color: coral;
+  color:firebrick;
+  font-size: 1.3rem;
+  display: block;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  text-align: center;
+  margin-top: 5px; 
+  margin-right: 0%;
+  margin-left: 0%;
+}
 
 p{
   color:rgb(32, 79, 137);
@@ -128,16 +141,12 @@ p{
   font-size: 1.5rem;
 }
 
-.img-description{
-  margin-left: 1rem;
-  font-size: 2.5rem;
-  padding: 1rem;
-}
 
 b{
   font-size: 1.3rem;
 }
 
+/*Style for images of model and/or author */
 .faheel{
   display: block;
   width: 20rem; 
@@ -147,24 +156,22 @@ b{
   margin-bottom: 2rem;
 }
 
+/* Style for description under images of models*/
+.img-description{
+  margin-left: 1rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
 
-
-
-
-
-
-
-
-
-  .footer {
-    position: fixed;
-    font-style: normal;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(209, 232, 252);
-    color: rgb(89, 89, 89);
-    text-align: center;
-    padding: 1rem;
-    font-size: 1rem;
+.footer {
+  position: fixed;
+  font-style: normal;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(209, 232, 252);
+  color: rgb(89, 89, 89);
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
 }
